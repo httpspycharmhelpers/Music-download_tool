@@ -1,42 +1,38 @@
-# Music-download_tool
-Music-download_tool
+#音乐下载工具(_T)
+音乐下载工具(_T)
  
-一个轻量实用的 Python 音乐下载工具，专注 VIP 音乐解析与免费保存 🎵
- 
-功能亮点
- 
-- VIP 音乐自由：一键解析并保存平台 VIP 音乐，打破“付费壁垒”
-- 全终端适配：完美支持 Linux、macOS、Windows 及安卓 Termux 终端环境，是热爱命令行“终端宝贝”的听歌利器
-- 双版本适配：提供  VIP_music_cracking_download.py  和  VIP_music_cracking_download2.py  两个版本，满足不同场景需求
-- 开源共享：基于 GPLv2 协议开源，欢迎开发者学习、改进并反馈
+一个轻量实用的python音乐下载工具，专注VIP音乐解析与免费保存 🎵
+-全终端适配：完美支持Linux、macOS、Windows及安卓Termux终端环境，是命令行听歌利器
+-双版本适配：提供VIP_music_cracking_download.py和VIP_music_cracking_download2.py两个版本，满足不同场景需求
+-开源共享：基于GPLv2协议开源，欢迎开发者学习、改进并反馈
  
 快速上手
  
 环境要求
  
-- Python 3.6 及以上版本
-- （可选）终端音频播放器（如  mpg123 、 ffplay 、 cmus  等，用于下载后直接播放）
+-Python3.6及以上版本
+-(可选)终端音频播放器(如mpg123、ffplay、cmus等，用于下载后直接播放）
  
 终端音频播放器安装（分平台详解）
  
 🔹 Linux 系统
  
-- 安装  mpg123 （轻量 MP3 播放器）：
+-安装mpg123(轻量MP3播放器)：
 bash
   
 
-# Ubuntu/Debian
+#Ubuntu/Debian
 sudo apt-get install mpg123
-# CentOS/RHEL
+#Centos/RHEL
 sudo yum install mpg123
  
-- 安装  cmus （功能强大的终端音乐播放器）：
+-安装cmus(功能强大的终端音乐播放器)：
 bash
   
 
-# Ubuntu/Debian
+#Ubuntu/Debian
 sudo apt-get install cmus
-# CentOS/RHEL
+#Centos/RHEL
 sudo yum install cmus
  
  
@@ -47,53 +43,53 @@ sudo yum install cmus
 bash
   
 
-brew install mpg123
-# 或
-brew install cmus
+brew安装mpg123
+#或
+brew安装cmus
  
  
-🔹 Windows 系统
+🔹  Windows系统
  
-安装  ffmpeg  套件（含  ffplay  播放器）：
+安装ffmpeg套件（含ffplay播放器）：
  
-1. 从 ffmpeg 官网 下载 Windows 版本
-2. 将  bin  目录加入系统环境变量
-3. 播放命令： ffplay 音乐文件.mp3 
+1.从ffmpeg官网下载Windows版本
+2.将bin目录加入系统环境变量
+3.播放命令：ffplay音乐文件.MP3
  
-🔹 安卓 Termux 环境
+🔹 安卓Termux环境
  
-1. 安装 Termux：
-- 打开安卓手机的 F-Droid 应用商店 或 Termux 官网，下载并安装 Termux 应用。
-2. 在 Termux 中安装依赖：
-bash
+1.安装Termux：
+-打开安卓手机的F-Droid应用商店或Termux官网，下载并安装Termux应用。
+2.在Termux中安装依赖：
+猛击
   
 
-# 安装 Python（若未安装）
-pkg install python -y
-# 安装 mpg123 播放器
-pkg install mpg123 -y
+#安装python（若未安装）
+包装安装python-y
+#安装mpg123播放器
+包装安装mpg123-y
  
  
 使用步骤
  
-1. 克隆仓库到本地
-bash
+1. 克隆仓库到本地
+猛击
   
 
-git clone https://github.com/httpspycharmhelpers/Music-download_tool.git
+git克隆https://github.com/httpspycharmhelpers/Music-download_tool.git
  
-2. 进入项目目录
-bash
+2. 进入项目目录
+猛击
   
 
-cd Music-download_tool
+CD音乐下载工具
  
-3. 运行工具并下载音乐
-bash
+3. 运行工具并下载音乐
+猛击
   
 
-# 选择版本1
-python VIP_music_cracking_download.py
+#选择版本1
+Python VIP_music_cracking_download.py
 # 或选择版本2
 python VIP_music_cracking_download2.py
  
