@@ -1,111 +1,63 @@
-#音乐下载工具(_T)
-音乐下载工具(_T)
- 
-一个轻量实用的python音乐下载工具，专注VIP音乐解析与免费保存 🎵
--全终端适配：完美支持Linux、macOS、Windows及安卓Termux终端环境，是命令行听歌利器
--双版本适配：提供VIP_music_cracking_download.py和VIP_music_cracking_download2.py两个版本，满足不同场景需求
--开源共享：基于GPLv2协议开源，欢迎开发者学习、改进并反馈
- 
-快速上手
- 
-环境要求
- 
--Python3.6及以上版本
--(可选)终端音频播放器(如mpg123、ffplay、cmus等，用于下载后直接播放）
- 
-终端音频播放器安装（分平台详解）
- 
-🔹 Linux 系统
- 
--安装mpg123(轻量MP3播放器)：
-bash
-  
+# MelodyHarvest 🎵 旋律丰收者
 
-#Ubuntu/Debian
-sudo apt-get install mpg123
-#Centos/RHEL
-sudo yum install mpg123
- 
--安装cmus(功能强大的终端音乐播放器)：
-bash
-  
+[![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)]()
 
-#Ubuntu/Debian
-sudo apt-get install cmus
-#Centos/RHEL
-sudo yum install cmus
- 
- 
-🔹 macOS 系统
- 
-通过 Homebrew 安装：
- 
-bash
-  
+**一个强大的全平台音乐搜索与下载工具，让你的音乐收藏无处不在！**
 
-brew安装mpg123
-#或
-brew安装cmus
- 
- 
-🔹  Windows系统
- 
-安装ffmpeg套件（含ffplay播放器）：
- 
-1.从ffmpeg官网下载Windows版本
-2.将bin目录加入系统环境变量
-3.播放命令：ffplay音乐文件.MP3
- 
-🔹 安卓Termux环境
- 
-1.安装Termux：
--打开安卓手机的F-Droid应用商店或Termux官网，下载并安装Termux应用。
-2.在Termux中安装依赖：
-猛击
-  
+> 🌟 从四大主流音乐平台一键收获高品质音乐，构建属于你的个人音乐图书馆
 
-#安装python（若未安装）
-包装安装python-y
-#安装mpg123播放器
-包装安装mpg123-y
- 
- 
-使用步骤
- 
-1. 克隆仓库到本地
-猛击
-  
+## ✨ 核心特性
 
-git克隆https://github.com/httpspycharmhelpers/Music-download_tool.git
- 
-2. 进入项目目录
-猛击
-  
+### 🎯 全平台支持
+- **咪咕音乐** - 海量正版音乐资源
+- **酷狗音乐** - 热门流行歌曲全覆盖  
+- **QQ音乐** - 独家版权歌曲获取
+- **网易云音乐** - 高品质音乐与独立音乐人作品
 
-CD音乐下载工具
- 
-3. 运行工具并下载音乐
-猛击
-  
+### 🚀 智能搜索
+- **精准搜索** - 按歌曲名、歌手名快速定位
+- **全网搜索** - 一次性搜索所有平台，对比选择
+- **批量下载** - 支持多首歌曲同时下载
+- **历史记录** - 完整的下载日志管理
 
-#选择版本1
-Python VIP_music_cracking_download.py
-# 或选择版本2
-python VIP_music_cracking_download2.py
- 
-4. 下载完成后，用终端播放器直接播放（以  mpg123  为例）
-bash
-  
+### 💫 用户体验
+- **实时进度** - 下载进度、速度、剩余时间一目了然
+- **智能命名** - 自动规范文件名，避免特殊字符冲突
+- **跨平台运行** - Windows、macOS、Linux 全支持
+- **线程安全** - 多线程下载，效率倍增
 
-mpg123 下载的音乐文件.mp3
- 
- 
-注意事项
- 
-- 仅限个人学习研究：本工具严禁用于商业用途，请勿侵犯音乐版权
-- 支持正版音乐：请尊重创作者劳动成果，条件允许时优先选择正版
-- 开源协议约束：基于 GPLv2 协议，任何衍生作品也必须开源并遵循相同协议
- 
-许可证
- 
-本项目采用 GNU通用公共许可证第2版（GPLv2） 开源，详见 LICENSE 文件。
+## 🎨 界面预览
+     ◘◘◘◘◘◘┐ ◘◘◘◘◘◘┐  ◘◘◘◘◘┐  ◘◘◘◘◘◘┐
+◘◘└┘┘◘◘┐◘◘└┘┘◘◘┐◘◘└┘┘◘◘┐◘◘└┘┘┘┘┘┘
+◘◘◘◘◘◘└┘◘◘◘◘◘◘└┘◘◘◘◘◘◘◘◘◘┐◘◘┐     
+◘◘└┘┘◘◘┐◘◘└┘┘◘◘┐◘◘└┘┘◘◘┐◘◘┐     
+◘◘┐  ◘◘┐◘◘◘◘◘◘└┘◘◘┐  ◘◘┐◘└◘◘◘◘◘◘┐
+└┘┘  └┘┘└┘┘┘┘┘┘ └┘┘  └┘┘ └┘┘┘┘┘┘┘
+
+## 🛠️ 安装与使用
+
+### 环境要求
+- Python 3.7 或更高版本
+- 无需额外依赖，开箱即用
+
+### 快速开始
+1. **下载项目**
+   ```bash
+   git clone https://github.com/httpspycharmhelpers/Music-download_tool.git
+   cd Music-download_tool
+or
+   python VIP_music_cracking_downloadV3.py
+   ```
+### 基本搜索
+/> 周杰伦 晴天          # 搜索歌曲
+/> /Singer: 周杰伦      # 搜索歌手所有歌曲
+/> KuGou: 海阔天空      # 酷狗搜索
+/> qq: 青花瓷          # QQ音乐搜索  
+/> Cloud: 起风了        # 网易云搜索
+/> All: 爱情           # 全网搜索
+/> history             # 查看下载历史
+/> exit                # 退出程序
+下载咪咕音乐（0~20）> 1 3 5    # 下载第1、3、5首歌曲
+下载全网（0~20）> 2 4 6 8      # 批量下载多首歌曲
