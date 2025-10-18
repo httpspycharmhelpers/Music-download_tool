@@ -1,7 +1,8 @@
-# MelodyHarvest 🎵 旋律丰收者
+
+# MelodyHarvest
 
 [![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)]()
 
 **一个强大的全平台音乐搜索与下载工具，让你的音乐收藏无处不在！**
@@ -23,23 +24,11 @@
 - **历史记录** - 完整的下载日志管理
 
 ### 💫 用户体验
-- **实时进度** - 下载进度、速度、剩余时间一目了然
 - **智能命名** - 自动规范文件名，避免特殊字符冲突
 - **跨平台运行** - Windows、macOS、Linux 全支持
-- **线程安全** - 多线程下载，效率倍增
-
-## 🎨 界面预览
-     ◘◘◘◘◘◘┐ ◘◘◘◘◘◘┐  ◘◘◘◘◘┐  ◘◘◘◘◘◘┐
-◘◘└┘┘◘◘┐◘◘└┘┘◘◘┐◘◘└┘┘◘◘┐◘◘└┘┘┘┘┘┘
-◘◘◘◘◘◘└┘◘◘◘◘◘◘└┘◘◘◘◘◘◘◘◘◘┐◘◘┐     
-◘◘└┘┘◘◘┐◘◘└┘┘◘◘┐◘◘└┘┘◘◘┐◘◘┐     
-◘◘┐  ◘◘┐◘◘◘◘◘◘└┘◘◘┐  ◘◘┐◘└◘◘◘◘◘◘┐
-└┘┘  └┘┘└┘┘┘┘┘┘ └┘┘  └┘┘ └┘┘┘┘┘┘┘
-
-## 🛠️ 安装与使用
-
+- **线程安全** - 多线程下载
 ### 环境要求
-- Python 3.7 或更高版本
+- Python  或更高版本
 - 无需额外依赖，开箱即用
 
 ### 快速开始
@@ -47,17 +36,56 @@
    ```bash
    git clone https://github.com/httpspycharmhelpers/Music-download_tool.git
    cd Music-download_tool
-or
+   ```
+
+2. **直接运行**
+   ```bash
    python VIP_music_cracking_downloadV3.py
    ```
+
+## 🎮 使用指南
+
 ### 基本搜索
+```
 /> 周杰伦 晴天          # 搜索歌曲
 /> /Singer: 周杰伦      # 搜索歌手所有歌曲
+```
+
+### 平台特定搜索
+```
 /> KuGou: 海阔天空      # 酷狗搜索
 /> qq: 青花瓷          # QQ音乐搜索  
 /> Cloud: 起风了        # 网易云搜索
 /> All: 爱情           # 全网搜索
+```
+
+### 其他功能
+```
 /> history             # 查看下载历史
 /> exit                # 退出程序
+```
+
+### 下载操作
+```
 下载咪咕音乐（0~20）> 1 3 5    # 下载第1、3、5首歌曲
 下载全网（0~20）> 2 4 6 8      # 批量下载多首歌曲
+```
+## 🔧 技术特点
+
+- **🔄 多线程下载** - 充分利用网络带宽
+- **🛡️ 异常处理** - 完善的错误处理和重试机制
+- **⏱️ 超时控制** - 智能超时设置，避免卡死
+- **🔤 编码处理** - 自动处理文件名编码问题
+- **📊 进度显示** - 实时下载进度和速度显示
+
+## ⚠️ 重要声明
+
+> **版权说明**：本项目仅用于学习和技术研究目的，请尊重音乐版权，下载的音乐文件请在24小时内删除，支持正版音乐。
+
+## 🐛 故障排除
+
+**常见问题解决方案：**
+- 🔄 **下载失败**：检查网络连接或尝试其他平台
+- 🔤 **文件名乱码**：程序会自动处理特殊字符
+- 🔍 **搜索无结果**：尝试使用更精确的关键词
+- ⏱️ **连接超时**：网络环境不佳，可重试
