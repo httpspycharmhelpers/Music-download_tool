@@ -34,8 +34,8 @@
 ### 快速开始
 1. **下载项目**
    ```bash
-   git clone https://github.com/httpspycharmhelpers/Music-download_tool.git
-   cd Music-download_tool
+   git clone https://github.com/httpspycharmhelpers/MelodyHarvest.git
+   cd MelodyHarvest
    ```
 
 2. **直接运行**
